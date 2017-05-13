@@ -1,0 +1,21 @@
+
+Short Term
+- Refactor babelfish.py to move Spark specific methods into the spark 
+  subdirectory.
+- Refactor "fish" action block in __main__ to move some of that code into
+  its own method (readability)
+- Add support for spinning up a web environment in Google Cloud Platform 
+  to establish webhooks in Spark for more realtime operation and efficient
+  message handling
+- Some basic unit testing
+
+Long Term
+- Reach out to Spark developer community to understand why bots can't see
+  all messages, only direct messages in a room.  Does that matter in webhook
+  driven environment (probably does)?
+
+- Would language-specific xlate rooms (instead of person specific rooms)
+  work better?  Is the persistence of the translation important?
+
+- Get better CI environment with Docker going.
+
