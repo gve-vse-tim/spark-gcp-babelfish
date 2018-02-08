@@ -19,13 +19,7 @@ import gcp.urls
 # Security provisions
 from config import BOT_TOKEN, BOT_EMAIL
 
-# Global defaults
-
-BOT_TOKEN='MWM1NmJhMjAtYjc0ZC00MGEyLWE3OWEtMTg0YmFiYWI2ZGE5M2ExYWE4YzItMmZk'
-BOT_EMAIL='gve_google_translate@sparkbot.io'
-
-BOT_TOKEN='ZDE0MTgyNjktMDRhYy00YzRiLThhZmYtMjFhN2NmM2I4NWU0NjhmYmFhNDktYjMx'
-
+# Methods for Babelfish Bot
 def make_header(authn):
     return { 'Authorization' : 'Bearer ' + authn }
 
